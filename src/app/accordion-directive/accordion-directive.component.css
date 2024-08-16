@@ -1,0 +1,30 @@
+.accordion-item {
+    cursor: pointer;
+    border: 1px solid #39484D;
+    border-top-right-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    font-family: 'Lufga', sans-serif;
+    color: #ffffffa6;
+    border-top-right-radius: 20px;
+}
+
+.accordion-header.bg-active {
+    background-color: #122329;
+    color: #fff;
+}
+
+.accordion-content {
+    padding-left: 20px !important;
+    padding: 10px;
+    background-color: #122329;
+    border-left: 1px solid #007bff;
+    font-family: 'Lufga', sans-serif;
+    color: #ffffffa6;
+}
