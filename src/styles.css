@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap'); */
+
+@font-face {
+    font-family: 'Zuume';
+    src: url('./assets/font/Zuume-Regular.woff') format('woff'),
+        url('./assets/font/Zuume-Regular.woff2') format('woff2');
+}
+
+.gloria-hallelujah {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Lufga';
+    src: url('./assets/font/Lufga-Regular.woff') format('woff'),
+        url('./assets/font/Lufga-Regular.woff2') format('woff2');
+}
+
+.font-Zuume {
+    font-family: 'Zuume', sans-serif;
+}
+
+.font-Lufga {
+    font-family: 'Lufga', sans-serif;
+}
+
+.App {
+    text-align: center;
+    font-family: 'Lufga', sans-serif;
+}

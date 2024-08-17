@@ -5,17 +5,25 @@ import { HomeComponent } from './home/home.component'; // Adjust path as needed
 import { AppRoutingModule } from './app-routing.module'; // Import your routing module
 import { AccordionDirectiveComponent } from './accordion-directive/accordion-directive.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { GenericComponent } from './generic/generic.component';
+import { ManageAccountComponent } from './manage-account/manage-account.component';
+import { CompareComponent } from './compare/compare.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccordionDirectiveComponent,
+    FooterComponent,
     NavbarComponent,
-    HomeComponent // Declare your components here
+    HomeComponent,
+    GenericComponent,
+    CompareComponent,
+    ManageAccountComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule // Import your routing module here
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
