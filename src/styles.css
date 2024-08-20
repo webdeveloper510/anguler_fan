@@ -20,6 +20,10 @@
     display: none;
 }
 
+span.visually-hidden {
+    display: none;
+}
+
 @font-face {
     font-family: 'Lufga';
     src: url('./assets/font/Lufga-Regular.woff') format('woff'),
