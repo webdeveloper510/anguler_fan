@@ -9,17 +9,17 @@ import { CompareComponent } from './compare/compare.component';
 import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
-  { path: '', component: LoginComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'landing', component: GenericComponent },
+  { path: '', component: GenericComponent },
   { path: 'manage', component: ManageAccountComponent },
   { path: 'compare', component: CompareComponent },
   { path: 'account', component: AccountComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)], // Configure routing
-  exports: [RouterModule] // Export RouterModule so it can be used elsewhere
+  imports: [RouterModule.forRoot(routes)], 
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
