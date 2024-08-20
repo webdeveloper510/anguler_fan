@@ -3,6 +3,7 @@
     border: 1px solid #39484D;
     border-top-right-radius: 20px;
     margin-bottom: 10px;
+    background: transparent;
 }
 
 .accordion-header {

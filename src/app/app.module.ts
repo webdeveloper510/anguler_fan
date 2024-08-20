@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component'; // Adjust path as needed
@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GenericComponent } from './generic/generic.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
 import { CompareComponent } from './compare/compare.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -23,9 +24,11 @@ import { CompareComponent } from './compare/compare.component';
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     AppRoutingModule
   ],
   providers: [],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

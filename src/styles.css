@@ -34,6 +34,36 @@
     font-family: 'Lufga', sans-serif;
 }
 
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-control-next-icon {
+    background-image: url('./assets/images/right.svg');
+    width: 4rem;
+    height: 4rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('./assets/images/left.svg');
+    width: 4rem;
+    height: 4rem;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+    top: unset;
+}
+
+.carousel-control-prev {
+    left: -5px;
+}
+
+.carousel-control-next {
+    right: -5px;
+}
+
 .App {
     text-align: center;
     font-family: 'Lufga', sans-serif;
