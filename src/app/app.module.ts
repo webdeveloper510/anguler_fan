@@ -9,7 +9,9 @@ import { FooterComponent } from './footer/footer.component';
 import { GenericComponent } from './generic/generic.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
 import { CompareComponent } from './compare/compare.component';
+import { AccountComponent } from './account/account.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CarousalComponent } from './carousal/carousal.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +20,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     NavbarComponent,
     HomeComponent,
+    CarousalComponent,
     GenericComponent,
     CompareComponent,
+    AccountComponent,
     ManageAccountComponent
   ],
   imports: [

@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { GenericComponent } from './generic/generic.component';
 import { ManageAccountComponent } from './manage-account/manage-account.component';
 import { CompareComponent } from './compare/compare.component';
+import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'landing', component: GenericComponent },
   { path: 'manage', component: ManageAccountComponent },
   { path: 'compare', component: CompareComponent },
+  { path: 'account', component: AccountComponent },
 ];
 
 @NgModule({
