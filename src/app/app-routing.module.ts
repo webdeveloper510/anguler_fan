@@ -11,15 +11,15 @@ import { AccountComponent } from './account/account.component';
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'home', component: HomeComponent },
-  { path: '', component: GenericComponent },
+  { path: '', component: HomeComponent },
+  { path: 'generic', component: GenericComponent },
   { path: 'manage', component: ManageAccountComponent },
   { path: 'compare', component: CompareComponent },
   { path: 'account', component: AccountComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)], 
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
