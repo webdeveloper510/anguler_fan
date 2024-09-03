@@ -3,7 +3,7 @@
     <div class='lg:col-span-5 md:col-span-6 sm:col-span-6 s:col-span-6 p-10'>
       <div class="self-center h-full">
         <img src='./assets/images/Logo.png' class='w-[150px] lg:ml-12 md:ml-3 sm:ml-3 s:ml-3' alt='logo' />
-        <div class='lg:px-12 md:px-3 sm:px-3 s:px-3'>
+        <div class=' lg:px-12 md:px-3 sm:px-3 s:px-3'>
           <div *ngIf="!formVisible" class="mt-20">
             <button (click)="showForm('creator')"
               class='bg-[#FF007A] w-full rounded-xl mb-1 text-white p-3 text-2xl font-Zuume'>
@@ -23,7 +23,7 @@
             </button>
           </div>
 
-          <div *ngIf="formVisible" class="p-10">
+          <div *ngIf="formVisible" class="py-10">
             <p class="font-Zuume text-[60px] font-bold leading-[45px] text-white">Register</p>
             <!-- Show API error message -->
             <div *ngIf="apiError" class="bg-red-500 text-white text-center rounded-lg p-2 my-3">
