@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'generic', component: GenericComponent },
   { path: 'manage', component: ManageAccountComponent },
   { path: 'compare', component: CompareComponent },
+  
   { path: 'account', component: AccountComponent },
 ];
 
