@@ -9,14 +9,13 @@ import { CompareComponent } from './compare/compare.component';
 import { AccountComponent } from './account/account.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'register', component: RegisterComponent },
-  { path: '', component: HomeComponent },
-  { path: 'generic', component: GenericComponent },
-  { path: 'manage', component: ManageAccountComponent },
-  { path: 'compare', component: CompareComponent },
-  
-  { path: 'account', component: AccountComponent },
+  { path:'login', component: LoginComponent },
+  { path:'register', component: RegisterComponent },
+  { path:'', component: HomeComponent },
+  { path:'generic', component: GenericComponent },
+  { path:'manage', component: ManageAccountComponent },
+  { path:'compare', component: CompareComponent },
+  { path:'account', component: AccountComponent },
 ];
 
 @NgModule({
